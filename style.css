@@ -1,0 +1,190 @@
+ body{
+	margin: 0;
+ }
+.menu{
+	text-align: center;
+	position: fixed;
+	background-color: white;
+	margin: 0 auto;
+	width: 100%;
+	opacity: 0.9;
+	top: 0;
+}
+.menu a{
+	color: black;
+	text-decoration: none;
+	width: 100px;
+	display: inline-block;
+	padding: 15px 20px;
+}
+.menu a:hover{
+	background-color: lightgray;
+}
+.header{
+	text-align: center;
+	background-color: black;
+	color: white;
+	background-image: url(images/polygons.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 200px 0px;
+	margin-top: 50px;
+}
+.header a{
+	color: black;
+	background-color: white;
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px 20px;
+	border-radius: 7px;
+}
+.header p{
+/*	margin-top: 50px;
+	margin-bottom: 35px;*/
+	margin: 50px 0px 35px;
+}
+#about img{
+	width: 400px;
+	float: right;
+	margin: 30px;
+	margin-top: 0;
+}
+#about{
+	width: 80%;
+	margin: 0px auto;
+	padding: 40px 0;
+}
+#about h1{
+	text-align: center;
+}
+#about p{
+	text-align: justify;
+}
+.member{
+	width:250px ;
+	display: inline-block;
+	border: 1px gray solid;
+	padding: 20px;
+	text-align: left;
+	margin: 10px;
+	box-shadow: 0px 3px 8px 1px gray;
+}
+.member img{
+	width:100% ;
+}
+#team{
+	text-align: center;
+}
+.member a{
+	background-color: rgb(5, 91, 115);
+	color: white;
+	text-decoration: none;
+	width: 100%;
+	padding: 10px 0;
+	display: inline-block;
+	text-align: center;
+	border-radius: 10px;
+}
+.position{
+	opacity: 0.6;
+}
+#tariffs{
+	background-color: dimgray;
+	text-align: center;
+	padding: 30px 0;
+	color: white;
+}
+.tarif{
+	display: inline-block;
+	background-color: white;
+	list-style: none;
+	margin: 10px 10px;
+	padding: 0;
+	width: 30%;
+	min-width: 300px;
+	color: black;
+	vertical-align: middle;
+}
+.tarif li{
+	padding: 15px 0px;
+	border-bottom: 1px lightgrey solid;
+}
+#tariffs .tarifname{
+	background-color: black;
+	color: white;
+	padding: 20px 0px;
+}
+#tariffs .tarifpro{
+	background-color:rgb(5,91 , 115);
+	color: white;
+	padding: 30px 0px;
+}
+.tarif a{
+	color: white;
+	background-color: black;
+	padding: 10px 15px;
+	text-decoration: none;
+	border-radius: 10px;
+}
+.tarif li:last-child{
+	background-color: white;
+	padding: 20px 0px;
+}
+.tarif .ho{
+	opacity: 0.5;
+}
+.tarif .po{
+	font-size:25px;
+	font-weight: bold;
+}
+#contact h1{
+	text-align: center;
+}
+#contact .text{
+	text-align: center;
+}
+#contact{
+	background-color: white;
+    padding: 40px 80px;
+}
+#contact input{
+	width: 100%;
+	padding: 10px;
+	margin: 5px 0px;
+}
+#contact button{
+	margin: 0 auto;
+	display: block;
+	margin-top: 5px;
+	background-color: black;
+	color: white;
+	padding: 10px 13px;
+	border-radius: 10px;
+}
+#contact .contact-info{
+	background-repeat: no-repeat;
+	padding-left: 30px;
+	background-size: contain;
+}
+#contact .info-city{
+	background-image: url(images/address.png);
+}
+#contact .info-number{
+	background-image: url(images/phone.png);
+}
+#contact .info-email{
+	background-image: url(images/mail.png);
+}
+.footer{
+	background-color: black;
+	color: white;
+}
+span{
+	font-weight: bold;
+}
+@media(max-width: 600px){
+   .menu{
+	 position: absolute;
+   }
+}
+	
